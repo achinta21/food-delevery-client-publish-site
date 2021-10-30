@@ -1,0 +1,16 @@
+.header{
+    background-color:#e7a872;
+    
+}
+.collapse ul{
+    list-style: none;
+}
+.collapse li{
+    margin: 10px;
+}
+.header-link{
+color: white;
+text-decoration: none;
+padding: 5px;
+border-radius: 10px;
+}

@@ -1,0 +1,4 @@
+.populargood:hover{
+   transform: scale(1.3);
+   transition: 2s;
+}

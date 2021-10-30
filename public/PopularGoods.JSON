@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "img":"https://i.ibb.co/PYkw5KR/item-03-480x480-removebg-preview.png",
+        "name":"Cheeseburger with Salad",
+        "title":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
+        "prices":19.00
+    },
+    {
+        "id":2,
+        "img":"https://i.ibb.co/ZNtvFYT/item-04-480x480-removebg-preview.png",
+        "name":"Royal Cheeseburger Bacon",
+        "title":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
+        "prices":18.99
+    },
+    {
+        "id":3,
+        "img":"https://i.ibb.co/WB4vBxs/item-02-480x480-removebg-preview.png",
+        "name":"Black Gambugrer Fishcake",
+        "title":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
+        "prices":24.99
+    },
+    {
+        "id":4,
+        "img":"https://i.ibb.co/607NrPw/item-01-480x480-removebg-preview.png",
+        "name":"Classic Bacon Hamburger",
+        "title":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
+        "prices":17.00
+    }
+]

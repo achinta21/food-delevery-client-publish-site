@@ -1,0 +1,7 @@
+.galary-item img{
+border-radius: 20px;
+}
+.galary-item img:hover{
+    transform: scale(.8);
+    transition: 5s;
+}

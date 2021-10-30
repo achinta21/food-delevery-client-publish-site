@@ -1,0 +1,17 @@
+.header-banner{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../../images/delevery/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-btn{
+    background-color:#F69946;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+   border-radius: 10px;
+}
+.banner-btn:hover{
+    background-color: rgb(55, 216, 181);
+    color: black;
+    
+}

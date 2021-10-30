@@ -1,0 +1,25 @@
+.ourservie{
+    box-shadow: 5px 7px 20px gray;
+    border-radius: 10px;
+    background-image: radial-gradient( circle farthest-corner at 0.8% 3.1%,  rgba(255,188,224,1) 0%, rgba(170,165,255,1) 46%, rgba(165,255,205,1) 100.2% );
+    margin:15px 0;
+    
+}
+.ourservie img{
+    border-radius: 5px;
+}
+.ourservie img:hover{
+    transform: scale(.5);
+    transition:5s;
+}
+.banners-btn{
+    background-color:#F7B614;
+    color: white;
+    font-weight: 500;
+    border-radius: 7px;
+    padding: 5px 20px;
+}
+.banners-btn:hover{
+    background-color: black;
+    color: white;
+}
