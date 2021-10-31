@@ -1,23 +1,24 @@
-# Getting Started with Create React App
+# Gomotofood best servies website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+this is Gomotofood website link [view now](https://admiring-bartik-768dc1.netlify.app/).
 
-## Available Scripts
+## Gomotofood site view and see unlimited servies
 
 In the project directory, you can run:
 
-### `npm start`
+### `Best Servies view website then sure`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [https://admiring-bartik-768dc1.netlify.app/](https://admiring-bartik-768dc1.netlify.app/) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Gomotofood About
+
+Phasellus porta turpis a lectus dapibus aliquet.
+Maecenas arcu est, consectetur eget ipsum ut, vulputate laoreet purus. 
+Proin facilisis sem non turpis vulputate semper. 
+See the section about [running tests](https://admiring-bartik-768dc1.netlify.app/) for more information.
 
 ### `npm run build`
 
