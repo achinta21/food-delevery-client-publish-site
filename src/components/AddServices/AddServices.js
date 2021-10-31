@@ -8,7 +8,7 @@ const AddServices = () => {
     const { register, handleSubmit,reset } = useForm();
   const onSubmit = data =>{
       console.log(data);
-      axios.post('http://localhost:5000/delivery',data)
+      axios.post('https://ghoulish-catacombs-80187.herokuapp.com/delivery',data)
       .then(res=>{
           if(res.data.insertedId){
               alert('added successfully')

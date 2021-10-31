@@ -3,12 +3,12 @@ import React, { useEffect, useState } from 'react';
 const ManageServies = () => {
     const[services,setServices]=useState();
     useEffect(()=>{
-        fetch('http://localhost:5000/delivery')
+        fetch('https://ghoulish-catacombs-80187.herokuapp.com/delivery')
         .then(res=>res.json())
         .then(data=>setServices(data))
     },[])
     const handelDelete=id=>{
-        const url=`http://localhost:5000/delivery/${id}`;
+        const url=`https://ghoulish-catacombs-80187.herokuapp.com/delivery/${id}`;
         fetch(url,{
             method:'DELETE'
         })

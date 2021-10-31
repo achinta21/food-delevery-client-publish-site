@@ -7,7 +7,7 @@ const MyOrder = () => {
     const {servieId}=useParams();
     const [service,setService]=useState();
     useEffect(()=>{
-        fetch(`http://localhost:5000/delivery/${servieId}`)
+        fetch(`https://ghoulish-catacombs-80187.herokuapp.com/delivery/${servieId}`)
         .then(res=>res.json())
         .then(data=>setService(data))
     },[])
