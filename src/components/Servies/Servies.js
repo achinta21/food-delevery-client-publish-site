@@ -17,7 +17,7 @@ useEffect(()=>{
            </div>
            <div className="ms-5 me-5">
             <h1 className="fw-bold my-5">best food servies</h1>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-4">
                 {servies.map(servie=><Servie id={servie.key} servie={servie}></Servie>)}
             </div>
            </div>

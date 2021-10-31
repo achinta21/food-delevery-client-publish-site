@@ -4,9 +4,9 @@ import './Galarys.css';
 const Galarys = ({photo}) => {
     const{img}=photo;
     return (
-        <div class="galary-item col g-4">
+        <div className="galary-item col g-4">
             <div class=" h-100">
-                <img src={img} class="card-img-top" alt="..."/>
+                <img src={img} className="card-img-top" alt="..."/>
       
             </div>
         </div>

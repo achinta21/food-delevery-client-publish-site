@@ -11,6 +11,8 @@ import Logins from './components/Logins/Logins';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './components/Logins/PrivateRoute/PrivateRoute';
 import Footer from './components/Footer/Footer';
+import AddServices from './components/AddServices/AddServices';
+import ManageServies from './components/ManageServies/ManageServies';
 
 function App() {
   return (
@@ -34,11 +36,23 @@ function App() {
           <PrivateRoute path="/myorder/:servieId">
             <MyOrder></MyOrder>
           </PrivateRoute>
+          <Route path="/myorder">
+            <MyOrder></MyOrder>
+          </Route>
           <Route path="/galary">
             <Galary></Galary>
           </Route>
           <Route path="/login">
             <Logins></Logins>
+          </Route>
+          <Route path="/allorder/:servieId">
+          <ManageServies></ManageServies>
+          </Route>
+          <Route path="/allorder">
+            <ManageServies></ManageServies>
+          </Route>
+          <Route path="/addservice">
+            <AddServices></AddServices>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

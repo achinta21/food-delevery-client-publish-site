@@ -9,7 +9,7 @@ const Header = () => {
       <div className="header">
     <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
-         <Link className="navbar-brand fw-bold ms-5 fs-4" to="/">Delicious Food</Link>
+         <Link className="navbar-brand fw-bold ms-5 fs-4" to="/">DELICIOUS FOOD</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
      </button>
@@ -22,7 +22,10 @@ const Header = () => {
           <Link className="header-link  fw-bold me-3" to="/servies">Servies</Link>
         </li>
         <li className="nav-item">
-          <Link className="header-link fw-bold me-3" to="/myorder">MyOrder</Link>
+          <Link className="header-link fw-bold me-3" to="/myorder/:servieId">MyOrder</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="header-link fw-bold me-3" to="/allorder/:servieId">ManageOrder</Link>
         </li>
         <li className="nav-item">
           <Link className="header-link  fw-bold me-3" to="/galary">Galary</Link>
@@ -34,7 +37,7 @@ const Header = () => {
          <li className="nav-item">
           { user?.email?
           <button className="fw-bold text-white bg-dark rouded-3"  onClick={logOut}>logout</button> :
-            <Link className="header-link  fw-bold me-3" to="/login">log in</Link>}
+            <Link className="header-link  fw-bold me-3" to="/login"><button className="btn bg-warning fw-bold">Log in</button></Link>}
         </li>
       </ul>
     </div>

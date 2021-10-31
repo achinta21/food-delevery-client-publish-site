@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Logins.css';
 const Logins = () => {
@@ -15,6 +16,7 @@ const Logins = () => {
                 <input className="submit fw-bold" type="submit" value="Submit" /> 
             </div>
             </form>
+            <Link to="/home"><button className="fw-bold bg-warning py-2 px-3 rounded-3">Back to Home</button></Link>
             <button onClick={signInUsingGoogle} className="fw-bold bg-warning py-2 px-3 rounded-3">Google Login</button>
             </div>
         </div>

@@ -4,7 +4,7 @@ import OurServie from './OurServie/OurServie';
 const OurServies = () => {
     const[servies,setServies]=useState([]);
     useEffect(()=>{
-        fetch('OurServie.JSON')
+        fetch('http://localhost:5000/delivery')
         .then(res=>res.json())
         .then(data=>setServies(data))
     },[])
